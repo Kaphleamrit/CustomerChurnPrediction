@@ -1,0 +1,43 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.eggs/
+*.pkl
+
+# Virtual environment
+.env/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Streamlit cache and config files
+.streamlit/
+**/cache/
+*/cache/
+
+# Model files (if not meant to be in version control)
+*.pkl
+*.joblib
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore any generated files or reports
+*.csv
+*.xlsx
+*.json
+*.html
+*.db
